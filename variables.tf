@@ -5,7 +5,7 @@ variable "key_name" {
 }
 variable "key_value" {
   type      = string
-  default   = "Default"
+  default   = "Lanistar"
 }
 variable "tags_list" {
   type = map(string)
