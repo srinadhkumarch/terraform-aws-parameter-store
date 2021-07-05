@@ -1,11 +1,16 @@
 variable "key_name" {
-  type    = string
-  default = "DevOps"
+  type      = string
+  default   = "DevOps"
   sensitive = true
 }
 variable "key_value" {
-  type    = string
-  default = "Lanistar"
+  type      = string
+  default   = "Lanistar"
   sensitive = true
 }
-variable "tags_list" {}
+variable "tags_list" {
+  type = map(string)
+  default = {
+    terraform = true
+  }
+}
