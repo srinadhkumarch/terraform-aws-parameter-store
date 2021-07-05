@@ -8,3 +8,4 @@ variable "key_value" {
   default = "Lanistar"
   sensitive = true
 }
+variable "tags_list" {}
