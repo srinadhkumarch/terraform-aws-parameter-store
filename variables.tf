@@ -5,7 +5,7 @@ variable "key_name" {
 }
 variable "key_value" {
   type      = string
-  default   = "Lanistar"
+  default   = "Default"
   sensitive = true
 }
 variable "tags_list" {
